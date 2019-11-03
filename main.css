@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   background-color: grey;}
+
+h1, h2, h3 {
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 90px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+.start {
+    margin-left: 26%;
+}
+
+p {
+    font-size: 160px;
+    color: black;
+    writing-mode: vertical-lr;
+    text-orientation: upright;    
+    font-family: 'Zhi Mang Xing', cursive;    
+    float: right;
+}
+
+form {    
+    margin-top: 150px;
+    margin-left: 60px; 
+}
+
+form, p {
+   display: inline-block;
+   text-align: right;
+}
